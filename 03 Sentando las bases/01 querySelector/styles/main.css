@@ -59,8 +59,10 @@ main {
 }
 
 .estilos-separadores {
-  color: green;
-  size: 25px;
+  height: 15px;
+  width: 75%;
+  border-color: green;
+  background-color: cyan;
 }
 
 @media (prefers-color-scheme: dark) {
