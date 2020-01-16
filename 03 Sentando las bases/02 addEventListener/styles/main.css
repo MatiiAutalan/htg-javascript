@@ -98,6 +98,9 @@ a {
   padding: 15px;
 }
 
+.nombreIncorrecto {
+  display: none;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
