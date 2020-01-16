@@ -38,8 +38,16 @@ Seleccionar todos los elementos `hr` usando JavaScript y asignarle una clase que
 
 ### Ejercicio 3
 
+<<<<<<< HEAD
 Ocultar los comentarios d emas de 50 caracteres.
 
 ### Ejercicio 4 
 
 Ocultar el comentario mas largo.
+=======
+Ocultar los comentarios de más de 50 caracteres
+
+### Ejercicio 4
+
+Ocultar el comentario más largo.
+>>>>>>> af01db3265d9cb1e0b7754b579a4dcad8f7f8923
