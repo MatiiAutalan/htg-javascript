@@ -11,7 +11,7 @@ function recibirNombre(event) {
 }
 
 function interceptarNombre(event) {
-  if (event.target.value.length< 5 || event.target.value.length > 50) {
+  if (event.target.value.length <= 4 || event.target.value.length >= 50) {
     nombreMal.classList.remove ('nombreIncorrecto');
   } else {
     nombreMal.classList.add ('nombreIncorrecto');
@@ -22,3 +22,13 @@ function interceptarNombre(event) {
 
 formulario.addEventListener('submit', recibirNombre);
 inputNombre.addEventListener('input', interceptarNombre);
+
+function agregarNombre(){                
+  const nombreComentario = document.createTextNode('holis');                                    
+  document.getElementById("nombre").appendChild(nombreComentario); 
+}
+
+function agregarComentario(){
+  const comentario = document.createTextNode('nose')
+  document.getElementById("comentario").appendChild(comentario)
+}

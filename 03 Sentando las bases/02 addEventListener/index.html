@@ -55,6 +55,8 @@
         <p class="paragraph">Discutí la problemática con unx compañerx y traten de encontrar posibles ideas para <strong>solucionar ese problema con tecnología</strong>. Ayudá a tu compañerx con su problemática.</p>
         <p class="paragraph">Escribe el nombre de quien te ayudó a encontrar la solución y describe las ideas a las que llegaron.</p>
         <br />
+        <h4 id="nombre"></h4>
+        <p id="comentario"></p>
         <form id="contacto" class="form">
           <div class="input-wrapper">
             <label class="input-label input-label__small" for="input-nombre">Nombre</label>
@@ -65,7 +67,7 @@
             <label class="input-label input-label__small" for="input-solucion">Ideas</label>
             <textarea class="text-input text-area" type="text" name="solucion" id="input-solucion"></textarea>
           </div>
-          <button class="primary-btn" type="submit" id="btn-enviar">ENVIAR</button>
+          <button class="primary-btn" type="submit" id="btn-enviar" onclick="agregarNombre(), agregarComentario()">ENVIAR</button>
         </form>
       </section>
     </main>
